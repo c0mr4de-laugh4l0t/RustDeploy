@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "user": "propheonix1",
+      "user": "maidh123",
       "command": "build fast --optimize",
       "score": 108,
       "success": true,
@@ -10,7 +10,7 @@
       "day": "2025-09-06"
     },
     {
-      "user": "propheonix1",
+      "user": "maidha123",
       "command": "deploy quantum-engine --turbo",
       "score": 97,
       "success": true,
