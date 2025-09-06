@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "user": "propheonix1",
+      "command": "build fast --optimize",
+      "score": 108,
+      "success": true,
+      "streak": 5,
+      "challenge_bonus": 15,
+      "day": "2025-09-06"
+    },
+    {
+      "user": "propheonix1",
+      "command": "deploy quantum-engine --turbo",
+      "score": 97,
+      "success": true,
+      "streak": 2,
+      "challenge_bonus": 0,
+      "day": "2025-09-06"
+    },
+    {
+      "user": "guest",
+      "command": "ship warp-container --debug",
+      "score": 52,
+      "success": true,
+      "streak": 3,
+      "challenge_bonus": 0,
+      "day": "2025-09-06"
+    }
+  ]
+}
