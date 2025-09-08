@@ -1,0 +1,27 @@
+# 🚀 Serious-looking deploys
+cargo run -- play "build fast --optimize" --user phoenix
+cargo run -- play "deploy --force --debug" --user guest
+cargo run -- play "docker run -it containerquest:v1" --user hacker
+cargo run -- play "kubectl apply -f production.yaml" --user ops
+cargo run -- play "helm upgrade --install rocket" --user alice
+
+# 🤖 Hacker / meme style
+cargo run -- play "hack --init skynet --mode=stealth" --user neo
+cargo run -- play "sudo rm -rf / --no-preserve-root" --user root
+cargo run -- play "deploy blockchain-miner --gpu" --user satoshi
+cargo run -- play "ai-train --dataset memes.csv" --user elon
+cargo run -- play "containerize quantum-ai --warp" --user bob
+
+# 🐳 Docker chaos
+cargo run -- play "docker pull chaos/unstable:latest" --user chaos
+cargo run -- play "docker run -it --rm rocket" --user speedster
+cargo run -- play "docker-compose up --scale=1000" --user stress
+cargo run -- play "podman build hyperspeed" --user runner
+cargo run -- play "docker swarm init --universe" --user infinity
+
+# 🎨 Funny/creative
+cargo run -- play "brew install coffee --extra-strong" --user coder
+cargo run -- play "apt-get install fun --yes" --user gamer
+cargo run -- play "launch hyperspace-container --jump" --user trekker
+cargo run -- play "npm install containerquest@universe" --user dev
+cargo run -- play "python run.py --chaos-mode" --user random

@@ -1,31 +1,20 @@
 {
   "entries": [
     {
-      "user": "maidha123",
-      "command": "build fast --optimize",
-      "score": 108,
+      "user": "guest",
+      "command": "pls give me loot --i’m broke",
+      "score": 92,
       "success": true,
-      "streak": 5,
-      "challenge_bonus": 15,
-      "day": "2025-09-06"
-    },
-    {
-      "user": "maidha123",
-      "command": "deploy quantum-engine --turbo",
-      "score": 97,
-      "success": true,
-      "streak": 2,
-      "challenge_bonus": 0,
-      "day": "2025-09-06"
+      "health": 100,
+      "timestamp": 1757345731
     },
     {
       "user": "guest",
-      "command": "ship warp-container --debug",
-      "score": 52,
+      "command": "Used item: Medkit",
+      "score": 0,
       "success": true,
-      "streak": 3,
-      "challenge_bonus": 0,
-      "day": "2025-09-06"
+      "health": 100,
+      "timestamp": 1757345846
     }
   ]
 }
