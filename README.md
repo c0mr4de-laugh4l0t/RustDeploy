@@ -28,4 +28,41 @@ git clone https://github.com/<your-username>/rustdeploy.git
 cd rustdeploy
 cargo build --release
 
+Usage
+
+Example deploy:
+
+cargo run -- deploy ./myapp
+
+
+Example Dockerfile for ./myapp/Dockerfile:
+
+FROM alpine:latest
+CMD ["echo", "Hello from RustDeploy"]
+
+
+Check logs:
+
+cargo run -- logs
+
+
+Check status:
+
+cargo run -- status
+
+Roadmap
+
+ CLI skeleton with Clap
+
+ Deploy command: Docker build + push
+
+ Cloud integration (Fly.io / Railway)
+
+ Logs and status from cloud API
+
+ TUI dashboard
+
+License
+
+This project is licensed under the MIT License.
 
