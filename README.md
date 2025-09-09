@@ -1,68 +1,68 @@
-# RustDeploy
 
-Deploy in one command.
+# 🐳 ContainerQuest
 
-RustDeploy is a lightweight DevOps tool written in Rust that builds and deploys applications to the cloud with a single CLI command. It automates Docker builds, pushes images to a registry, and spins up a live service with minimal configuration.
+**ContainerQuest** is a Reddit + Terminal mini-game where users “deploy” or “open” virtual containers, collect loot, survive traps, and climb the leaderboard.  
 
----
-
-## Features
-- `deploy` — build and push a Docker image from any folder
-- `logs` — view container logs from the deployed app
-- `status` — check health and status of the app
-- Optional TUI dashboard for monitoring (planned)
+This project was built for the **Reddit Hackathon**.  
 
 ---
 
-## Getting Started
+## 📸 Screenshots
 
-### Prerequisites
-- [Rust](https://www.rust-lang.org/tools/install) installed
-- [Docker](https://docs.docker.com/get-docker/) installed and running
-- A Docker Hub account (or alternative registry)
+- ![Gameplay Screenshot](picture1.png)
+- ![Leaderboard View](picture2.png)
+- ![Healing Item](picture3.png)
 
-### Installation
-Clone the repo and build with Cargo:
+---
+
+## 🎮 How to Play
+
+### 📥 Clone the repo
 ```bash
-git clone https://github.com/<your-username>/rustdeploy.git
-cd rustdeploy
-cargo build --release
+git clone https://github.com/yourusername/containerquest.git
+cd containerquest
+```
+##⚡ Run the game
+```bash
+cargo run -- play --command "build fast --optimize" --user guest
+cargo run -- play --command "pls give me loot --i’m broke" --user guest
+cargo run -- play --item Medkit --user guest
+cargo run -- leaderboard
+```
 
-Usage
+---
 
-Example deploy:
+## ✨ Features
 
-cargo run -- deploy ./myapp
+Deploy commands to simulate container builds
+
+Collect loot and creativity points
+
+Survive traps and failures that reduce health
+
+Use healing items (Medkit, Potion, Bandage)
+
+Streak bonuses for daily play
+
+Leaderboard to compete with others
 
 
-Example Dockerfile for ./myapp/Dockerfile:
 
-FROM alpine:latest
-CMD ["echo", "Hello from RustDeploy"]
+---
 
+## 🛠️ Build
+```bash
+cargo build
+```
 
-Check logs:
+---
 
-cargo run -- logs
+## 🚀 Example Commands
+```bash
+cargo run -- play --command "build fast --optimize" --user guest
+cargo run -- play --command "pls give me loot --i’m broke" --user guest
+cargo run -- play --item Medkit --user guest
+cargo run -- leaderboard
+```
 
-
-Check status:
-
-cargo run -- status
-
-Roadmap
-
- CLI skeleton with Clap
-
- Deploy command: Docker build + push
-
- Cloud integration (Fly.io / Railway)
-
- Logs and status from cloud API
-
- TUI dashboard
-
-License
-
-This project is licensed under the MIT License.
 
