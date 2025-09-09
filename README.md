@@ -7,7 +7,7 @@ This project was built for the **Reddit Hackathon**.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 - ![Gameplay Screenshot](picture1.png)
 - ![Leaderboard View](picture2.png)
@@ -15,14 +15,14 @@ This project was built for the **Reddit Hackathon**.
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
-### 📥 Clone the repo
+###  Clone the repo
 ```bash
 git clone https://github.com/yourusername/containerquest.git
 cd containerquest
 ```
-##⚡ Run the game
+## Run the game
 ```bash
 cargo run -- play --command "build fast --optimize" --user guest
 cargo run -- play --command "pls give me loot --i’m broke" --user guest
@@ -32,7 +32,7 @@ cargo run -- leaderboard
 
 ---
 
-## ✨ Features
+##  Features
 
 Deploy commands to simulate container builds
 
@@ -50,14 +50,14 @@ Leaderboard to compete with others
 
 ---
 
-## 🛠️ Build
+##  Build
 ```bash
 cargo build
 ```
 
 ---
 
-## 🚀 Example Commands
+##  Example Commands
 ```bash
 cargo run -- play --command "build fast --optimize" --user guest
 cargo run -- play --command "pls give me loot --i’m broke" --user guest
